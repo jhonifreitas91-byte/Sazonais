@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Super Kit Datas Comemorativas | +2.000 Atividades Pedagógicas</title>
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>
+    Super Kit Datas Comemorativas | +2.000 Atividades Pedagógicas
+  </title>
 
   <meta
     name="description"
     content="Super Kit Datas Comemorativas com +2.000 atividades pedagógicas para Educação Infantil e Anos Iniciais."
-  />
+  >
 
   <style>
+
     * {
       margin: 0;
       padding: 0;
@@ -23,52 +32,79 @@
     }
 
     body {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
       background: #faf9ff;
+
       color: #202020;
-      line-height: 1.6;
+
+      line-height: 1.5;
     }
 
     a {
       text-decoration: none;
     }
 
-    /* =========================
+    img {
+      max-width: 100%;
+    }
+
+
+    /* ========================================
        HERO
-    ========================= */
+    ======================================== */
 
     .hero {
+
       min-height: 100vh;
+
       display: flex;
+
       flex-direction: column;
+
       align-items: center;
+
       justify-content: center;
+
       text-align: center;
 
       padding: 70px 20px 80px;
 
       background:
+
         radial-gradient(
           circle at top left,
-          rgba(167, 139, 250, 0.20),
+          rgba(167, 139, 250, .20),
           transparent 35%
         ),
+
         radial-gradient(
           circle at bottom right,
-          rgba(236, 72, 153, 0.15),
+          rgba(236, 72, 153, .15),
           transparent 35%
         ),
+
         #faf9ff;
     }
 
-    .badge {
-      display: inline-block;
 
-      background: linear-gradient(
-        135deg,
-        #7c3aed,
-        #ec4899
-      );
+    .badge {
+
+      display: inline-flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      background:
+        linear-gradient(
+          135deg,
+          #7c3aed,
+          #ec4899
+        );
 
       color: #fff;
 
@@ -77,20 +113,28 @@
       border-radius: 999px;
 
       font-size: 13px;
+
       font-weight: 800;
 
-      letter-spacing: 0.5px;
+      letter-spacing: .5px;
 
       margin-bottom: 22px;
 
       box-shadow:
-        0 8px 25px rgba(124, 58, 237, 0.20);
+        0 8px 25px rgba(124,58,237,.20);
     }
 
+
     .hero h1 {
+
       max-width: 900px;
 
-      font-size: clamp(38px, 6vw, 68px);
+      font-size:
+        clamp(
+          38px,
+          6vw,
+          68px
+        );
 
       line-height: 1.08;
 
@@ -103,25 +147,32 @@
       color: #171717;
     }
 
+
     .hero h1 span {
-      background: linear-gradient(
-        135deg,
-        #7c3aed,
-        #ec4899
-      );
+
+      background:
+        linear-gradient(
+          135deg,
+          #7c3aed,
+          #ec4899
+        );
 
       -webkit-background-clip: text;
+
       -webkit-text-fill-color: transparent;
 
       background-clip: text;
     }
 
-    /* =========================
+
+    /* ========================================
        VÍDEO PRINCIPAL
-    ========================= */
+    ======================================== */
 
     .video-container {
+
       width: 100%;
+
       max-width: 340px;
 
       aspect-ratio: 9 / 16;
@@ -135,12 +186,14 @@
       background: #000;
 
       box-shadow:
-        0 20px 50px rgba(0, 0, 0, 0.16),
-        0 5px 20px rgba(124, 58, 237, 0.10);
+        0 20px 50px rgba(0,0,0,.16);
     }
 
+
     .video-player {
+
       width: 100%;
+
       height: 100%;
 
       display: block;
@@ -150,7 +203,9 @@
       background: #000;
     }
 
+
     .hero-subtitle {
+
       max-width: 760px;
 
       font-size: 20px;
@@ -160,68 +215,84 @@
       margin-bottom: 32px;
     }
 
+
     .hero-subtitle strong {
       color: #333;
     }
 
+
     .btn-primary {
+
       display: inline-flex;
 
       align-items: center;
+
       justify-content: center;
 
       padding: 17px 32px;
 
       border-radius: 12px;
 
-      background: linear-gradient(
-        135deg,
-        #7c3aed,
-        #ec4899
-      );
+      background:
+        linear-gradient(
+          135deg,
+          #7c3aed,
+          #ec4899
+        );
 
       color: #fff;
 
       font-size: 17px;
+
       font-weight: 800;
 
       box-shadow:
-        0 12px 30px rgba(124, 58, 237, 0.25);
+        0 12px 30px rgba(124,58,237,.25);
 
-      transition: all 0.25s ease;
+      transition: .25s;
     }
 
+
     .btn-primary:hover {
+
       transform: translateY(-3px);
 
       box-shadow:
-        0 18px 35px rgba(124, 58, 237, 0.30);
+        0 18px 35px rgba(124,58,237,.30);
     }
 
-    /* =========================
+
+    /* ========================================
        SEÇÕES
-    ========================= */
+    ======================================== */
 
     section {
       padding: 90px 20px;
     }
 
+
     .section-container {
+
       width: 100%;
+
       max-width: 1150px;
 
       margin: 0 auto;
     }
 
+
     .section-header {
+
       text-align: center;
 
       max-width: 780px;
 
-      margin: 0 auto 55px;
+      margin: 0 auto 50px;
     }
 
+
     .section-label {
+
       color: #7c3aed;
 
       font-size: 14px;
@@ -235,132 +306,177 @@
       margin-bottom: 10px;
     }
 
+
     .section-header h2 {
-      font-size: clamp(32px, 5vw, 48px);
+
+      font-size:
+        clamp(
+          32px,
+          5vw,
+          48px
+        );
 
       line-height: 1.15;
 
       letter-spacing: -1px;
 
-      margin-bottom: 16px;
+      margin-bottom: 15px;
 
       color: #181818;
     }
 
+
     .section-header p {
+
       color: #707070;
 
       font-size: 18px;
     }
 
-    /* =========================
-       O QUE VOCÊ RECEBE
-    ========================= */
+
+    /* ========================================
+       DATAS COMEMORATIVAS
+    ======================================== */
 
     .receive-section {
       background: #fff;
     }
 
+
     .months-grid {
+
       display: grid;
 
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns:
+        repeat(
+          3,
+          minmax(0, 1fr)
+        );
 
-      gap: 22px;
+      gap: 20px;
     }
 
+
     .month-card {
+
       background: #fff;
 
       border: 1px solid #eeeaf8;
 
-      border-radius: 20px;
+      border-radius: 18px;
 
-      padding: 25px;
+      padding: 22px;
+
+      min-width: 0;
 
       box-shadow:
-        0 10px 35px rgba(40, 20, 80, 0.06);
+        0 8px 28px rgba(40,20,80,.055);
 
-      transition: all 0.25s ease;
+      transition:
+        transform .25s,
+        box-shadow .25s;
     }
 
+
     .month-card:hover {
+
       transform: translateY(-5px);
 
       box-shadow:
-        0 18px 45px rgba(40, 20, 80, 0.10);
+        0 16px 40px rgba(40,20,80,.10);
     }
 
+
     .month-top {
+
       display: flex;
 
       align-items: center;
+
       justify-content: space-between;
 
-      gap: 15px;
+      gap: 10px;
 
-      margin-bottom: 18px;
+      margin-bottom: 13px;
     }
 
+
     .month-name {
-      font-size: 22px;
+
+      font-size: 20px;
 
       font-weight: 900;
 
       color: #222;
     }
 
+
     .month-icon {
-      width: 48px;
-      height: 48px;
+
+      width: 42px;
+
+      height: 42px;
+
+      flex-shrink: 0;
 
       display: flex;
 
       align-items: center;
+
       justify-content: center;
 
-      border-radius: 14px;
+      border-radius: 12px;
 
       background: #f4efff;
 
-      font-size: 24px;
+      font-size: 21px;
     }
 
+
     .month-count {
+
       display: inline-block;
 
       background: #f3efff;
 
       color: #7c3aed;
 
-      font-size: 11px;
+      font-size: 10px;
 
       font-weight: 800;
 
-      padding: 5px 9px;
+      padding: 4px 8px;
 
       border-radius: 999px;
 
-      margin-bottom: 15px;
+      margin-bottom: 12px;
     }
 
+
     .month-card ul {
+
       list-style: none;
     }
 
+
     .month-card li {
+
       position: relative;
 
-      padding-left: 20px;
+      padding-left: 18px;
 
-      margin-bottom: 9px;
+      margin-bottom: 7px;
 
       color: #656565;
 
-      font-size: 15px;
+      font-size: 14px;
+
+      line-height: 1.4;
     }
 
+
     .month-card li::before {
+
       content: "✓";
 
       position: absolute;
@@ -372,62 +488,81 @@
       font-weight: 900;
     }
 
-    /* =========================
-       POR DENTRO DO GUIA
-    ========================= */
+
+    /* ========================================
+       GUIA
+    ======================================== */
 
     .guide-section {
+
       background:
         linear-gradient(
           180deg,
-          #ffffff 0%,
+          #fff 0%,
           #faf9ff 100%
         );
     }
 
+
     .guide-header {
+
       text-align: center;
 
       max-width: 800px;
 
-      margin: 0 auto 45px;
+      margin: 0 auto 42px;
     }
 
+
     .guide-header h2 {
-      font-size: clamp(34px, 5vw, 50px);
+
+      font-size:
+        clamp(
+          34px,
+          5vw,
+          50px
+        );
 
       line-height: 1.1;
 
       letter-spacing: -1px;
 
       margin-bottom: 12px;
-
-      color: #181818;
     }
 
+
     .guide-header p {
+
       font-size: 19px;
 
       color: #707070;
     }
 
-    /* =========================
+
+    /* ========================================
        GALERIA
-    ========================= */
+    ======================================== */
 
     .guide-gallery {
+
       display: grid;
 
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns:
+        repeat(
+          3,
+          minmax(0, 1fr)
+        );
 
-      gap: 22px;
+      gap: 20px;
 
       max-width: 1050px;
 
       margin: 0 auto;
     }
 
+
     .guide-image {
+
       width: 100%;
 
       aspect-ratio: 4 / 5;
@@ -443,51 +578,60 @@
       border-radius: 18px;
 
       box-shadow:
-        0 12px 35px rgba(40, 20, 80, 0.08);
+        0 10px 30px rgba(40,20,80,.08);
 
-      transition:
-        transform 0.25s ease,
-        box-shadow 0.25s ease;
+      transition: .25s;
     }
 
+
     .guide-image:hover {
+
       transform: translateY(-5px);
 
       box-shadow:
-        0 18px 45px rgba(40, 20, 80, 0.13);
+        0 18px 40px rgba(40,20,80,.13);
     }
 
-    /* =========================
+
+    /* ========================================
        VÍDEO DO GUIA
-    ========================= */
+    ======================================== */
 
     .guide-video-section {
-      margin-top: 90px;
+
+      margin-top: 85px;
 
       text-align: center;
     }
 
+
     .guide-video-section h2 {
-      font-size: clamp(34px, 5vw, 50px);
+
+      font-size:
+        clamp(
+          34px,
+          5vw,
+          50px
+        );
 
       line-height: 1.1;
 
-      letter-spacing: -1px;
-
       margin-bottom: 12px;
-
-      color: #181818;
     }
 
+
     .guide-video-section p {
+
       font-size: 19px;
 
       color: #707070;
 
-      margin-bottom: 35px;
+      margin-bottom: 32px;
     }
 
+
     .guide-video-container {
+
       width: 100%;
 
       max-width: 340px;
@@ -503,35 +647,40 @@
       background: #000;
 
       box-shadow:
-        0 20px 55px rgba(40, 20, 80, 0.15);
+        0 20px 55px rgba(40,20,80,.15);
     }
 
+
     .guide-video {
+
       width: 100%;
+
       height: 100%;
 
       display: block;
 
       object-fit: cover;
-
-      background: #000;
     }
 
-    /* =========================
+
+    /* ========================================
        DESTAQUE
-    ========================= */
+    ======================================== */
 
     .highlight-section {
+
       background:
         linear-gradient(
           135deg,
-          #f4efff 0%,
-          #fff 50%,
-          #fff1f7 100%
+          #f4efff,
+          #fff,
+          #fff1f7
         );
     }
 
+
     .highlight-box {
+
       max-width: 1000px;
 
       margin: 0 auto;
@@ -545,31 +694,47 @@
       text-align: center;
 
       box-shadow:
-        0 20px 60px rgba(50, 30, 100, 0.08);
+        0 20px 60px rgba(50,30,100,.08);
 
       border: 1px solid #eee8fb;
     }
 
+
     .highlight-box h2 {
-      font-size: clamp(30px, 5vw, 48px);
+
+      font-size:
+        clamp(
+          30px,
+          5vw,
+          48px
+        );
 
       line-height: 1.15;
 
       margin-bottom: 18px;
     }
 
+
     .highlight-box p {
+
       max-width: 700px;
 
-      margin: 0 auto 35px;
+      margin: 0 auto 30px;
 
       color: #686868;
 
       font-size: 18px;
     }
 
+
     .big-number {
-      font-size: clamp(48px, 9vw, 90px);
+
+      font-size:
+        clamp(
+          48px,
+          9vw,
+          90px
+        );
 
       line-height: 1;
 
@@ -586,12 +751,12 @@
 
       -webkit-text-fill-color: transparent;
 
-      background-clip: text;
-
       margin-bottom: 8px;
     }
 
+
     .big-number-label {
+
       font-size: 16px;
 
       font-weight: 800;
@@ -603,98 +768,126 @@
       letter-spacing: 1px;
     }
 
-    /* =========================
+
+    /* ========================================
        AVALIAÇÕES
-    ========================= */
+    ======================================== */
 
     .reviews-section {
       background: #fff;
     }
 
+
     .reviews-grid {
+
       display: grid;
 
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns:
+        repeat(
+          3,
+          minmax(0, 1fr)
+        );
 
-      gap: 22px;
+      gap: 20px;
     }
 
+
     .review-card {
+
       background: #faf9ff;
 
       border: 1px solid #eeeaf8;
 
-      border-radius: 20px;
+      border-radius: 18px;
 
-      padding: 28px;
+      padding: 24px;
+
+      min-width: 0;
 
       box-shadow:
-        0 8px 25px rgba(40, 20, 80, 0.04);
+        0 8px 25px rgba(40,20,80,.04);
 
-      transition:
-        transform 0.25s ease,
-        box-shadow 0.25s ease;
+      transition: .25s;
     }
 
+
     .review-card:hover {
+
       transform: translateY(-4px);
 
       box-shadow:
-        0 15px 35px rgba(40, 20, 80, 0.08);
+        0 15px 35px rgba(40,20,80,.08);
     }
 
+
     .stars {
+
       color: #f5a623;
 
-      font-size: 19px;
+      font-size: 18px;
 
       letter-spacing: 2px;
 
-      margin-bottom: 15px;
+      margin-bottom: 12px;
     }
+
 
     .review-text {
+
       color: #555;
 
-      font-size: 16px;
+      font-size: 15px;
 
-      margin-bottom: 20px;
+      line-height: 1.55;
+
+      margin-bottom: 18px;
     }
 
+
     .review-name {
+
       font-weight: 800;
 
       color: #222;
     }
 
+
     .review-role {
+
       color: #888;
 
-      font-size: 13px;
+      font-size: 12px;
     }
 
-    /* =========================
+
+    /* ========================================
        OFERTA
-    ========================= */
+    ======================================== */
 
     .offer-section {
+
       padding: 100px 20px;
 
       background:
+
         radial-gradient(
           circle at 15% 20%,
-          rgba(124, 58, 237, 0.18),
+          rgba(124,58,237,.18),
           transparent 35%
         ),
+
         radial-gradient(
           circle at 85% 80%,
-          rgba(236, 72, 153, 0.18),
+          rgba(236,72,153,.18),
           transparent 35%
         ),
+
         #f8f6ff;
     }
 
+
     .offer-box {
+
       position: relative;
 
       max-width: 760px;
@@ -712,18 +905,22 @@
       text-align: center;
 
       box-shadow:
-        0 25px 80px rgba(72, 38, 130, 0.16);
+        0 25px 80px rgba(72,38,130,.16);
 
       overflow: hidden;
     }
 
+
     .offer-box::before {
+
       content: "";
 
       position: absolute;
 
       top: 0;
+
       left: 0;
+
       right: 0;
 
       height: 7px;
@@ -737,10 +934,13 @@
         );
     }
 
+
     .offer-badge {
+
       display: inline-flex;
 
       align-items: center;
+
       justify-content: center;
 
       background:
@@ -761,24 +961,26 @@
       border-radius: 999px;
 
       margin-bottom: 20px;
-
-      letter-spacing: 0.5px;
-
-      box-shadow:
-        0 8px 20px rgba(124, 58, 237, 0.25);
     }
 
+
     .offer-box h2 {
-      font-size: clamp(32px, 5vw, 48px);
+
+      font-size:
+        clamp(
+          32px,
+          5vw,
+          48px
+        );
 
       line-height: 1.1;
 
       margin-bottom: 8px;
-
-      color: #181818;
     }
 
-    .offer-box .offer-subtitle {
+
+    .offer-subtitle {
+
       color: #707070;
 
       font-size: 18px;
@@ -786,7 +988,9 @@
       margin-bottom: 28px;
     }
 
+
     .promotion-label {
+
       display: inline-block;
 
       background: #fff0f5;
@@ -806,11 +1010,9 @@
       margin-bottom: 18px;
     }
 
-    .old-price-area {
-      margin-bottom: 3px;
-    }
 
     .old-price-label {
+
       display: block;
 
       color: #777;
@@ -820,13 +1022,11 @@
       font-weight: 700;
 
       text-transform: uppercase;
-
-      letter-spacing: 0.5px;
-
-      margin-bottom: 2px;
     }
 
+
     .old-price {
+
       color: #999;
 
       font-size: 23px;
@@ -836,7 +1036,9 @@
       text-decoration: line-through;
     }
 
+
     .price-label {
+
       color: #555;
 
       font-size: 14px;
@@ -850,10 +1052,17 @@
       margin-top: 8px;
     }
 
-    .price {
-      font-size: clamp(68px, 12vw, 100px);
 
-      line-height: 0.95;
+    .price {
+
+      font-size:
+        clamp(
+          68px,
+          12vw,
+          100px
+        );
+
+      line-height: .95;
 
       font-weight: 950;
 
@@ -864,7 +1073,9 @@
       letter-spacing: -4px;
     }
 
+
     .price small {
+
       font-size: 34px;
 
       vertical-align: top;
@@ -876,7 +1087,9 @@
       letter-spacing: 0;
     }
 
+
     .discount-badge {
+
       display: inline-block;
 
       background: #e9f9ef;
@@ -894,7 +1107,9 @@
       margin-bottom: 25px;
     }
 
+
     .offer-benefits {
+
       max-width: 480px;
 
       margin: 0 auto 28px;
@@ -910,7 +1125,9 @@
       text-align: left;
     }
 
+
     .offer-benefits-title {
+
       font-size: 15px;
 
       font-weight: 900;
@@ -922,11 +1139,14 @@
       text-align: center;
     }
 
+
     .offer-benefits ul {
       list-style: none;
     }
 
+
     .offer-benefits li {
+
       position: relative;
 
       padding-left: 28px;
@@ -938,17 +1158,14 @@
       font-size: 15px;
     }
 
-    .offer-benefits li:last-child {
-      margin-bottom: 0;
-    }
 
     .offer-benefits li::before {
+
       content: "✓";
 
       position: absolute;
 
       left: 0;
-      top: 0;
 
       color: #18a957;
 
@@ -957,7 +1174,9 @@
       font-weight: 900;
     }
 
+
     .offer-box .btn-primary {
+
       width: 100%;
 
       max-width: 500px;
@@ -967,21 +1186,11 @@
       font-size: 18px;
 
       border-radius: 14px;
-
-      box-shadow:
-        0 15px 35px rgba(124, 58, 237, 0.30);
     }
 
-    .offer-box .btn-primary:hover {
-      transform:
-        translateY(-3px)
-        scale(1.01);
-
-      box-shadow:
-        0 20px 45px rgba(124, 58, 237, 0.35);
-    }
 
     .offer-urgency {
+
       margin-top: 17px;
 
       color: #777;
@@ -991,11 +1200,9 @@
       font-weight: 600;
     }
 
-    .offer-urgency strong {
-      color: #d62f72;
-    }
 
     .offer-note {
+
       margin-top: 14px;
 
       font-size: 12px;
@@ -1003,21 +1210,26 @@
       color: #999;
     }
 
-    /* =========================
+
+    /* ========================================
        FAQ
-    ========================= */
+    ======================================== */
 
     .faq-section {
       background: #fff;
     }
 
+
     .faq-container {
+
       max-width: 800px;
 
       margin: 0 auto;
     }
 
+
     details {
+
       background: #faf9ff;
 
       border: 1px solid #eeeaf8;
@@ -1029,12 +1241,14 @@
       overflow: hidden;
     }
 
+
     summary {
+
       cursor: pointer;
 
       list-style: none;
 
-      padding: 21px 24px;
+      padding: 20px 24px;
 
       font-weight: 800;
 
@@ -1047,11 +1261,14 @@
       padding-right: 55px;
     }
 
+
     summary::-webkit-details-marker {
       display: none;
     }
 
+
     summary::after {
+
       content: "+";
 
       position: absolute;
@@ -1065,16 +1282,17 @@
 
       font-size: 25px;
 
-      font-weight: 400;
-
       color: #7c3aed;
     }
+
 
     details[open] summary::after {
       content: "−";
     }
 
+
     details p {
+
       padding: 0 24px 22px;
 
       color: #707070;
@@ -1082,11 +1300,13 @@
       font-size: 15px;
     }
 
-    /* =========================
+
+    /* ========================================
        CTA FINAL
-    ========================= */
+    ======================================== */
 
     .final-section {
+
       padding: 100px 20px;
 
       background:
@@ -1101,30 +1321,42 @@
       text-align: center;
     }
 
+
     .final-section h2 {
+
       max-width: 800px;
 
       margin: 0 auto 18px;
 
-      font-size: clamp(34px, 6vw, 55px);
+      font-size:
+        clamp(
+          34px,
+          6vw,
+          55px
+        );
 
       line-height: 1.1;
     }
 
+
     .final-section p {
+
       max-width: 650px;
 
       margin: 0 auto 30px;
 
       font-size: 18px;
 
-      opacity: 0.92;
+      opacity: .92;
     }
 
+
     .btn-final {
+
       display: inline-flex;
 
       align-items: center;
+
       justify-content: center;
 
       background: #fff;
@@ -1139,21 +1371,24 @@
 
       font-weight: 900;
 
-      transition: all 0.25s ease;
+      transition: .25s;
 
       box-shadow:
-        0 12px 30px rgba(0, 0, 0, 0.15);
+        0 12px 30px rgba(0,0,0,.15);
     }
+
 
     .btn-final:hover {
       transform: translateY(-3px);
     }
 
-    /* =========================
+
+    /* ========================================
        FOOTER
-    ========================= */
+    ======================================== */
 
     footer {
+
       background: #17131f;
 
       color: #aaa;
@@ -1165,125 +1400,391 @@
       font-size: 13px;
     }
 
-    /* =========================
-       RESPONSIVO
-    ========================= */
 
-    @media (max-width: 900px) {
+    /* ========================================
+       RESPONSIVIDADE
+    ======================================== */
+
+    /*
+      DESKTOP
+      3 colunas
+    */
+
+    @media (min-width: 901px) {
 
       .months-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      .guide-gallery {
+        grid-template-columns: repeat(3, 1fr);
       }
 
       .reviews-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+
+    /*
+      TABLET
+      2 colunas
+    */
+
+    @media (min-width: 601px) and (max-width: 900px) {
+
+      .months-grid {
         grid-template-columns: repeat(2, 1fr);
       }
 
       .guide-gallery {
         grid-template-columns: repeat(2, 1fr);
       }
+
+      .reviews-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
+
+
+    /*
+      CELULAR
+      2 colunas para os cards,
+      para não virar uma lista enorme.
+    */
 
     @media (max-width: 600px) {
 
       .hero {
-        padding: 55px 18px 65px;
+
+        padding:
+          55px 16px 65px;
       }
+
 
       .hero h1 {
-        letter-spacing: -1px;
 
-        font-size: 40px;
+        font-size: 38px;
+
+        letter-spacing: -1px;
       }
 
+
       .hero-subtitle {
+
         font-size: 17px;
       }
 
+
       .video-container {
+
         max-width: 300px;
-
-        margin-top: 0;
-
-        margin-bottom: 25px;
 
         border-radius: 18px;
       }
 
+
       section {
-        padding: 65px 18px;
+
+        padding:
+          65px 15px;
       }
+
+
+      .section-header {
+
+        margin-bottom: 35px;
+      }
+
+
+      /*
+        IMPORTANTE:
+        Mantém 2 colunas no celular
+        para os blocos ficarem agrupados.
+      */
 
       .months-grid {
-        grid-template-columns: 1fr;
+
+        grid-template-columns:
+          repeat(2, minmax(0, 1fr));
+
+        gap: 12px;
       }
+
 
       .month-card {
-        padding: 22px;
+
+        padding: 16px;
+
+        border-radius: 15px;
       }
+
+
+      .month-top {
+
+        align-items: flex-start;
+      }
+
+
+      .month-name {
+
+        font-size: 17px;
+      }
+
+
+      .month-icon {
+
+        width: 36px;
+
+        height: 36px;
+
+        font-size: 18px;
+
+        border-radius: 10px;
+      }
+
+
+      .month-card li {
+
+        font-size: 12px;
+
+        padding-left: 15px;
+
+        margin-bottom: 6px;
+      }
+
+
+      .month-count {
+
+        font-size: 9px;
+
+        padding: 4px 6px;
+      }
+
+
+      /*
+        GALERIA
+      */
 
       .guide-gallery {
-        grid-template-columns: 1fr;
 
-        gap: 18px;
+        grid-template-columns:
+          repeat(2, minmax(0, 1fr));
+
+        gap: 12px;
       }
+
 
       .guide-image {
-        aspect-ratio: 4 / 5;
+
+        border-radius: 14px;
       }
+
+
+      /*
+        AVALIAÇÕES
+      */
+
+      .reviews-grid {
+
+        grid-template-columns:
+          repeat(2, minmax(0, 1fr));
+
+        gap: 12px;
+      }
+
+
+      .review-card {
+
+        padding: 17px;
+
+        border-radius: 15px;
+      }
+
+
+      .stars {
+
+        font-size: 14px;
+
+        letter-spacing: 1px;
+
+        margin-bottom: 9px;
+      }
+
+
+      .review-text {
+
+        font-size: 12px;
+
+        line-height: 1.45;
+
+        margin-bottom: 13px;
+      }
+
+
+      .review-name {
+
+        font-size: 13px;
+      }
+
+
+      .review-role {
+
+        font-size: 10px;
+      }
+
+
+      /*
+        DESTAQUE
+      */
+
+      .highlight-box {
+
+        padding:
+          40px 20px;
+
+        border-radius: 22px;
+      }
+
+
+      /*
+        VÍDEO DO GUIA
+      */
 
       .guide-video-section {
-        margin-top: 65px;
+
+        margin-top: 60px;
       }
 
+
       .guide-video-container {
+
         max-width: 300px;
       }
 
-      .highlight-box,
-      .offer-box {
-        padding: 38px 22px;
-      }
+
+      /*
+        OFERTA
+      */
 
       .offer-section {
-        padding: 70px 15px;
+
+        padding:
+          70px 12px;
       }
 
+
       .offer-box {
+
+        padding:
+          38px 18px 35px;
+
         border-radius: 24px;
       }
 
+
       .price {
-        font-size: 75px;
+
+        font-size: 72px;
       }
+
 
       .price small {
-        font-size: 27px;
 
-        top: 9px;
+        font-size: 26px;
+
+        top: 8px;
       }
+
 
       .offer-benefits {
-        padding: 18px 15px;
+
+        padding: 17px 14px;
       }
 
-      .reviews-grid {
-        grid-template-columns: 1fr;
+
+      .offer-benefits li {
+
+        font-size: 13px;
       }
 
-      .review-card {
-        padding: 24px;
-      }
+
+      /*
+        BOTÕES
+      */
 
       .btn-primary,
       .btn-final {
+
         width: 100%;
 
         max-width: 380px;
       }
+
     }
+
+
+    /*
+      CELULARES MUITO PEQUENOS
+      Mantém 2 colunas, mas reduz
+      ainda mais os espaçamentos.
+    */
+
+    @media (max-width: 380px) {
+
+      .months-grid,
+      .reviews-grid,
+      .guide-gallery {
+
+        gap: 9px;
+      }
+
+
+      .month-card {
+
+        padding: 13px;
+      }
+
+
+      .month-name {
+
+        font-size: 15px;
+      }
+
+
+      .month-icon {
+
+        width: 32px;
+
+        height: 32px;
+
+        font-size: 16px;
+      }
+
+
+      .month-card li {
+
+        font-size: 11px;
+      }
+
+
+      .review-card {
+
+        padding: 14px;
+      }
+
+
+      .review-text {
+
+        font-size: 11px;
+      }
+
+    }
+
   </style>
+
 </head>
+
 
 <body>
 
@@ -1294,18 +1795,22 @@
 
   <section class="hero">
 
+
     <div class="badge">
       OFERTA VÁLIDA ATÉ HOJE
     </div>
 
 
     <h1>
+
       Todas as datas especiais do ano em
-      <span>atividades prontas!</span>
+
+      <span>
+        atividades prontas!
+      </span>
+
     </h1>
 
-
-    <!-- VÍDEO PRINCIPAL -->
 
     <div class="video-container">
 
@@ -1320,7 +1825,7 @@
         <source
           src="video.mp4"
           type="video/mp4"
-        />
+        >
 
         Seu navegador não suporta a reprodução de vídeos.
 
@@ -1331,9 +1836,18 @@
 
     <p class="hero-subtitle">
 
-      O <strong>Super Kit Datas Comemorativas</strong> reúne
-      <strong>+2.000 atividades pedagógicas</strong> para você
-      trabalhar as principais datas do ano com seus alunos,
+      O
+      <strong>
+        Super Kit Datas Comemorativas
+      </strong>
+
+      reúne
+
+      <strong>
+        +2.000 atividades pedagógicas
+      </strong>
+
+      para você trabalhar as principais datas do ano com seus alunos,
       sem precisar passar horas procurando atividades.
 
     </p>
@@ -1343,8 +1857,11 @@
       href="SEU_LINK_DE_CHECKOUT_AQUI"
       class="btn-primary"
     >
+
       Quero acessar o Super Kit →
+
     </a>
+
 
   </section>
 
@@ -1355,7 +1872,9 @@
 
   <section class="receive-section">
 
+
     <div class="section-container">
+
 
       <div class="section-header">
 
@@ -1363,9 +1882,11 @@
           O QUE VOCÊ RECEBE
         </div>
 
+
         <h2>
           +2.000 atividades para acompanhar o ano letivo inteiro
         </h2>
+
 
         <p>
           Um acervo completo de atividades pedagógicas organizadas
@@ -1378,7 +1899,7 @@
       <div class="months-grid">
 
 
-        <!-- JANEIRO -->
+        <!-- 01 -->
 
         <div class="month-card">
 
@@ -1413,7 +1934,7 @@
         </div>
 
 
-        <!-- FEVEREIRO -->
+        <!-- 02 -->
 
         <div class="month-card">
 
@@ -1448,7 +1969,7 @@
         </div>
 
 
-        <!-- MARÇO -->
+        <!-- 03 -->
 
         <div class="month-card">
 
@@ -1491,7 +2012,7 @@
         </div>
 
 
-        <!-- ABRIL -->
+        <!-- 04 -->
 
         <div class="month-card">
 
@@ -1542,7 +2063,7 @@
         </div>
 
 
-        <!-- MAIO -->
+        <!-- 05 -->
 
         <div class="month-card">
 
@@ -1589,7 +2110,7 @@
         </div>
 
 
-        <!-- JUNHO -->
+        <!-- 06 -->
 
         <div class="month-card">
 
@@ -1640,7 +2161,7 @@
         </div>
 
 
-        <!-- JULHO -->
+        <!-- 07 -->
 
         <div class="month-card">
 
@@ -1675,7 +2196,7 @@
         </div>
 
 
-        <!-- AGOSTO -->
+        <!-- 08 -->
 
         <div class="month-card">
 
@@ -1718,7 +2239,7 @@
         </div>
 
 
-        <!-- SETEMBRO -->
+        <!-- 09 -->
 
         <div class="month-card">
 
@@ -1765,7 +2286,7 @@
         </div>
 
 
-        <!-- OUTUBRO -->
+        <!-- 10 -->
 
         <div class="month-card">
 
@@ -1812,7 +2333,7 @@
         </div>
 
 
-        <!-- NOVEMBRO -->
+        <!-- 11 -->
 
         <div class="month-card">
 
@@ -1851,7 +2372,7 @@
         </div>
 
 
-        <!-- DEZEMBRO -->
+        <!-- 12 -->
 
         <div class="month-card">
 
@@ -1895,6 +2416,7 @@
 
   <section class="guide-section">
 
+
     <div class="section-container">
 
 
@@ -1913,52 +2435,61 @@
 
       <div class="guide-gallery">
 
+
         <img
           src="pagina-01.jpg"
           alt="Página real do Super Kit Datas Comemorativas"
           class="guide-image"
-        />
+        >
+
 
         <img
           src="pagina-02.jpg"
           alt="Página real do Super Kit Datas Comemorativas"
           class="guide-image"
-        />
+        >
+
 
         <img
           src="pagina-03.jpg"
           alt="Página real do Super Kit Datas Comemorativas"
           class="guide-image"
-        />
+        >
+
 
         <img
           src="pagina-04.jpg"
           alt="Página real do Super Kit Datas Comemorativas"
           class="guide-image"
-        />
+        >
+
 
         <img
           src="pagina-05.jpg"
           alt="Página real do Super Kit Datas Comemorativas"
           class="guide-image"
-        />
+        >
+
 
         <img
           src="pagina-06.jpg"
           alt="Página real do Super Kit Datas Comemorativas"
           class="guide-image"
-        />
+        >
+
 
       </div>
 
 
-      <!-- VÍDEO DO GUIA -->
+      <!-- VÍDEO -->
 
       <div class="guide-video-section">
+
 
         <h2>
           Veja o material em vídeo
         </h2>
+
 
         <p>
           Conheça o guia por dentro
@@ -1978,13 +2509,14 @@
             <source
               src="video-guia.mp4"
               type="video/mp4"
-            />
+            >
 
             Seu navegador não suporta a reprodução de vídeos.
 
           </video>
 
         </div>
+
 
       </div>
 
@@ -2000,53 +2532,65 @@
 
   <section class="highlight-section">
 
+
     <div class="highlight-box">
+
 
       <h2>
         Chega de perder horas procurando atividades.
       </h2>
+
 
       <p>
         Tenha em mãos um acervo completo para trabalhar
         diferentes datas e temas ao longo do ano letivo.
       </p>
 
+
       <div class="big-number">
         +2.000
       </div>
+
 
       <div class="big-number-label">
         ATIVIDADES PEDAGÓGICAS
       </div>
 
+
     </div>
+
 
   </section>
 
 
   <!-- =====================================================
-       AVALIAÇÕES — 6 DEPOIMENTOS
+       AVALIAÇÕES
   ===================================================== -->
 
   <section class="reviews-section">
+
 
     <div class="section-container">
 
 
       <div class="section-header">
 
+
         <div class="section-label">
           QUEM USA, APROVA
         </div>
+
 
         <h2>
           Mais praticidade para sua rotina
         </h2>
 
+
         <p>
           Veja alguns exemplos de como o material pode facilitar
           o planejamento das suas aulas.
         </p>
+
 
       </div>
 
@@ -2054,7 +2598,7 @@
       <div class="reviews-grid">
 
 
-        <!-- AVALIAÇÃO 1 -->
+        <!-- 01 -->
 
         <div class="review-card">
 
@@ -2063,9 +2607,11 @@
           </div>
 
           <p class="review-text">
+
             “O material me ajudou muito a organizar minhas atividades
             para as datas comemorativas. Ficou muito mais fácil planejar
             as aulas.”
+
           </p>
 
           <div class="review-name">
@@ -2079,7 +2625,7 @@
         </div>
 
 
-        <!-- AVALIAÇÃO 2 -->
+        <!-- 02 -->
 
         <div class="review-card">
 
@@ -2088,9 +2634,11 @@
           </div>
 
           <p class="review-text">
+
             “A quantidade de atividades é enorme e facilita bastante
             a rotina. Consigo encontrar ideias para vários momentos
             do ano.”
+
           </p>
 
           <div class="review-name">
@@ -2104,7 +2652,7 @@
         </div>
 
 
-        <!-- AVALIAÇÃO 3 -->
+        <!-- 03 -->
 
         <div class="review-card">
 
@@ -2113,9 +2661,11 @@
           </div>
 
           <p class="review-text">
+
             “Gostei muito da organização por datas. É muito mais
             prático do que ficar procurando uma atividade diferente
             toda vez.”
+
           </p>
 
           <div class="review-name">
@@ -2129,7 +2679,7 @@
         </div>
 
 
-        <!-- AVALIAÇÃO 4 -->
+        <!-- 04 -->
 
         <div class="review-card">
 
@@ -2138,9 +2688,11 @@
           </div>
 
           <p class="review-text">
+
             “A organização por meses deixou meu planejamento muito
             mais prático. Consigo visualizar as datas e já pensar
             nas atividades que vou trabalhar.”
+
           </p>
 
           <div class="review-name">
@@ -2154,7 +2706,7 @@
         </div>
 
 
-        <!-- AVALIAÇÃO 5 -->
+        <!-- 05 -->
 
         <div class="review-card">
 
@@ -2163,9 +2715,11 @@
           </div>
 
           <p class="review-text">
+
             “É muito bom ter várias opções de atividades em um só
             lugar. Economiza bastante tempo na hora de preparar
             as aulas.”
+
           </p>
 
           <div class="review-name">
@@ -2179,7 +2733,7 @@
         </div>
 
 
-        <!-- AVALIAÇÃO 6 -->
+        <!-- 06 -->
 
         <div class="review-card">
 
@@ -2188,9 +2742,11 @@
           </div>
 
           <p class="review-text">
+
             “Achei muito prático para trabalhar as datas comemorativas.
             Agora tenho várias ideias para consultar durante o ano
             e consigo organizar melhor minha rotina.”
+
           </p>
 
           <div class="review-name">
@@ -2206,16 +2762,18 @@
 
       </div>
 
+
     </div>
 
   </section>
 
 
   <!-- =====================================================
-       OFERTA ESPECIAL
+       OFERTA
   ===================================================== -->
 
   <section class="offer-section">
+
 
     <div class="offer-box">
 
@@ -2240,16 +2798,13 @@
       </div>
 
 
-      <div class="old-price-area">
+      <span class="old-price-label">
+        De:
+      </span>
 
-        <span class="old-price-label">
-          De:
-        </span>
 
-        <div class="old-price">
-          R$ 35,00
-        </div>
-
+      <div class="old-price">
+        R$ 35,00
       </div>
 
 
@@ -2269,6 +2824,7 @@
 
 
       <div class="offer-benefits">
+
 
         <div class="offer-benefits-title">
           Você recebe tudo isso:
@@ -2303,6 +2859,7 @@
 
         </ul>
 
+
       </div>
 
 
@@ -2310,21 +2867,28 @@
         href="SEU_LINK_DE_CHECKOUT_AQUI"
         class="btn-primary"
       >
+
         🔥 QUERO APROVEITAR A OFERTA
+
       </a>
 
 
       <p class="offer-urgency">
+
         Aproveite o valor promocional enquanto esta oferta estiver disponível.
+
       </p>
 
 
       <p class="offer-note">
+
         Acesso ao material após a confirmação da compra.
+
       </p>
 
 
     </div>
+
 
   </section>
 
@@ -2335,18 +2899,22 @@
 
   <section class="faq-section">
 
+
     <div class="section-container">
 
 
       <div class="section-header">
 
+
         <div class="section-label">
           DÚVIDAS FREQUENTES
         </div>
 
+
         <h2>
           Perguntas frequentes
         </h2>
+
 
       </div>
 
@@ -2361,9 +2929,11 @@
           </summary>
 
           <p>
+
             É um grande acervo com mais de 2.000 atividades pedagógicas
             organizadas para trabalhar diferentes datas comemorativas
             e temas ao longo do ano letivo.
+
           </p>
 
         </details>
@@ -2376,11 +2946,13 @@
           </summary>
 
           <p>
+
             O kit reúne atividades organizadas de janeiro a dezembro,
             incluindo volta às aulas, Carnaval, Dia da Mulher,
             Dia da Água, Páscoa, Dia dos Povos Indígenas, Festa Junina,
             Folclore, Dia das Crianças, Dia do Professor, Consciência
             Negra, Natal e várias outras datas.
+
           </p>
 
         </details>
@@ -2393,8 +2965,10 @@
           </summary>
 
           <p>
+
             Após a confirmação da compra, o material será disponibilizado
             de forma digital para acesso.
+
           </p>
 
         </details>
@@ -2407,9 +2981,11 @@
           </summary>
 
           <p>
+
             Sim. O material foi pensado para facilitar a rotina do
             professor e permitir que as atividades sejam utilizadas
             de forma prática em sala de aula.
+
           </p>
 
         </details>
@@ -2422,9 +2998,11 @@
           </summary>
 
           <p>
+
             O Super Kit é indicado principalmente para profissionais
             da área de pedagogia, especialmente para quem trabalha
             com Educação Infantil e Anos Iniciais.
+
           </p>
 
         </details>
@@ -2437,8 +3015,10 @@
           </summary>
 
           <p>
+
             Nesta oferta, o Super Kit Datas Comemorativas está disponível
             por apenas R$ 15,00.
+
           </p>
 
         </details>
@@ -2446,7 +3026,9 @@
 
       </div>
 
+
     </div>
+
 
   </section>
 
@@ -2457,14 +3039,17 @@
 
   <section class="final-section">
 
+
     <h2>
       Tenha atividades para cada momento especial do ano.
     </h2>
 
 
     <p>
+
       Organize sua rotina, economize tempo e tenha um acervo completo
       de atividades pedagógicas sempre à sua disposição.
+
     </p>
 
 
@@ -2472,8 +3057,11 @@
       href="SEU_LINK_DE_CHECKOUT_AQUI"
       class="btn-final"
     >
+
       Quero acessar o Super Kit →
+
     </a>
+
 
   </section>
 
@@ -2502,23 +3090,28 @@
 
     faqs.forEach((faq) => {
 
-      faq.addEventListener("toggle", () => {
+      faq.addEventListener(
+        "toggle",
+        () => {
 
-        if (faq.open) {
+          if (faq.open) {
 
-          faqs.forEach((otherFaq) => {
+            faqs.forEach(
+              (otherFaq) => {
 
-            if (otherFaq !== faq) {
+                if (otherFaq !== faq) {
 
-              otherFaq.removeAttribute("open");
+                  otherFaq.removeAttribute("open");
 
-            }
+                }
 
-          });
+              }
+            );
+
+          }
 
         }
-
-      });
+      );
 
     });
 
@@ -2526,4 +3119,5 @@
 
 
 </body>
+
 </html>
