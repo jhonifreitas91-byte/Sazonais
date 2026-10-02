@@ -1781,6 +1781,23 @@
 
     }
 
+.badge {
+  animation: pulseBadge 1.5s ease-in-out infinite;
+}
+
+@keyframes pulseBadge {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.35);
+  }
+
+  50% {
+    transform: scale(1.06);
+    box-shadow: 0 0 0 10px rgba(124, 58, 237, 0);
+  }
+}
+
+    
   </style>
 
 </head>
